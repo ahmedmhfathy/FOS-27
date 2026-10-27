@@ -1,0 +1,22 @@
+# Ignore the entire object/output directory
+obj/
+
+# Ignore compiler/build outputs
+*.o
+*.d
+*.img
+.gdbinit
+
+# Ignore Eclipse-specific files and folders
+.metadata/
+.remote/
+.settings/
+.project
+.cproject
+.vs
+
+# Ignore common OS junk
+.DS_Store
+EOF
+
+/bochs.log
