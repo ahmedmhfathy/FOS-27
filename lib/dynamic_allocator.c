@@ -112,7 +112,7 @@ void *alloc_block(uint32 requiredSize)
 //===================================================
 // [3] FREE BLOCK WITH COALESCING:
 //===================================================
-// mobarak is here
+// mobarak is here for the second time
 void free_block(void *va)
 {
 	struct BlockMetaData *freeBlock = ((struct BlockMetaData *)va - 1) ;
